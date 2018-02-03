@@ -3,16 +3,18 @@
 
 
 
-@import './src/sass/baseUtilities/_variables.scss';
+@import './Dev/sass/baseUtilities/_variables.scss';
 
 /* Importing Bulma Overwrites FIles */ 
-@import './src/sass/bulma/bulmaEntry.scss';
+// @import './Dev/sass/bulmaOverwrites/_customBulma.scss'; 
 
 /* Importing All Base Utilities */
-@import './src/sass/baseUtilities/_mixins.scss';
-@import './src/sass/baseUtilities/_placeholders.scss';  
-@import './src/sass/baseUtilities/_global.scss';
+@import './Dev/sass/baseUtilities/_mixins.scss';
+@import './Dev/sass/baseUtilities/_placeholders.scss';  
  
 /* Importing Layout FIles */
-@import './src/sass/pages/_index.scss';
-            
+@import './Dev/sass/pages/global.scss';
+@import './Dev/sass/pages/index.scss';
+         
+@import './Dev/sass/sandyBulma.scss';
+@import './Dev/sass/oldStyles.scss';

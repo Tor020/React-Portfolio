@@ -6,4 +6,4 @@
 }
 @mixin shadow($xval, $yval, $blur, $spread){
   box-shadow: $xval $yval $blur $spread rgba(0,0,0,0.71);
-}    
+}
