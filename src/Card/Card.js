@@ -20,8 +20,7 @@ class Card extends Component {
                 <p className="subtitle is-6 project-tag">
                   <a>{this.props.projectTags}
                   </a>
-                  <a>{this.props.projectTags}
-                  </a>
+
                 </p>
               </div>
             </div>
@@ -44,7 +43,7 @@ class Card extends Component {
           caption = {this.props.caption}  
           />
         <LiBoxNoThmb 
-          imgLink = {this.props.imgLink}
+          imgLink = {this.props.imgLink2}
           imageSet = {this.props.imageSet}  
           caption = {this.props.caption2}
           />
@@ -58,7 +57,6 @@ class Card extends Component {
                 <p className="is-4 title">{this.props.projectTitle}</p>
 
                 <p className="subtitle is-6 project-tag">
-                  <a>{this.props.projectTags}</a>
                   <a>{this.props.projectTags}</a>
                 </p>
 

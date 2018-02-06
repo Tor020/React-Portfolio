@@ -95,6 +95,21 @@ const Cards = () => (
           caption2={single.caption}
           key={single.projectTitle}/>)}
       </div>
+      <div className="columns">
+        {sectioned[5].map(single => <Card
+          projectTitle={single.projectTitle}
+          projectTags={single.projectTags}
+          backSummary={single.backSummary}
+          frontSummary={single.frontSummary}
+          liveSiteHref={single.liveSiteHref}
+          caption={single.caption}
+          imgLinkThmb={single.imgLinkThmb}
+          imgLink={single.imgLink[0]}
+          altTxt={single.altTxt}
+          imageSet={single.imageSet}
+          caption2={single.caption}
+          key={single.projectTitle}/>)}
+      </div>
 
     </div>
 
