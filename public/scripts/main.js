@@ -1,6 +1,9 @@
 window.onload = function() {
     const cards = document.querySelectorAll('.footer-flip');
-    cards.forEach(cards => cards.addEventListener('click', cardflip))
+    cards.forEach(cards => cards.addEventListener('click', cardflip));
+
+
+
 }
 
 function cardflip() {

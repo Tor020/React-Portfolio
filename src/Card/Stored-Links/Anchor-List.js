@@ -1,34 +1,20 @@
 export const propData = [
    {
-    projectTitle: "Free Website Template",
-    projectTags:["#Javascript ","#CSS-Grid"],
-    backSummary:"",
-    frontSummary:"",    
+    projectTitle: "Kitchens Design & Interiors",
+    projectTags:["#Client-Website ","#Wordpress ", ],
+    backSummary:"I was contracted for this project to improve the client's website and was able to dramatically increase page load speed and also able to supplement lead generation with the addition of a contact form.",
+    frontSummary:"Business Website for an Interior design company in California",    
     imgLink: [
-      "https://res.cloudinary.com/tor020/image/upload/v1517718790/FreeWebSiteLanding_hokb9b.png", ""
+      "https://res.cloudinary.com/tor020/image/upload/v1524159572/screencapture-kitchensdesignandinteriors-2018-04-19-13_38_29_aynbj6.png"
     ],
-    imgLinkThmb: "https://res.cloudinary.com/tor020/image/upload/c_limit,h_300,w_400/v1517718790/FreeWebSiteLanding_hokb9b.png",
-    imageSet: "FreeWebsiteTemplate",
+    imgLinkThmb: "https://res.cloudinary.com/tor020/image/upload/c_limit,h_300,w_400/v1524159572/screencapture-kitchensdesignandinteriors-2018-04-19-13_38_29_aynbj6.png",
+    imageSet: "Kitchens&Interiors",
     caption: "",
     altTxt: "",
-    liveSiteHref: "",
-    
-  }, 
+    liveSiteHref: "http://kitchensdesignandinteriors.com/",
+  },
+
    {
-    projectTitle: "Start Page Web-Application",
-    projectTags:["#Javascript",""],
-    backSummary:"",
-    frontSummary:"",    
-    imgLink: [
-      "https://res.cloudinary.com/tor020/image/upload/v1517719364/myHomepage2_y02rkv.png", "https://res.cloudinary.com/tor020/image/upload/v1517719637/myHomepage1_izv35e.png"
-    ],
-    imgLinkThmb: "https://res.cloudinary.com/tor020/image/upload/c_limit,h_300,w_400/v1517719364/myHomepage2_y02rkv.png",
-    imageSet: "HomePageApp",
-    caption: "",
-    altTxt: "",
-    liveSiteHref: "",
-    
-  }, {
     projectTitle: "DimenciaPortfolio",
     projectTags:["#Client-Website ","#Sass ", "#Gulp"],
     backSummary:"I was contracted for this project to adapt content from the Client's previous website, which is broken and built with Dreamweaver. I used a Gulp build system with Sass files to build a layout for the client's content",
@@ -42,7 +28,37 @@ export const propData = [
     altTxt: "",
     liveSiteHref: "http://dimencia.com/",
   },
-  { 
+   {
+    projectTitle: "Landing Page Template",
+    projectTags:["#Javascript ","#CSS-Grid"],
+    backSummary:"Versatile landing page template that can be purposed in a variety of ways.",
+    frontSummary:"Simple Landing Page Prototype",    
+    imgLink: [
+      "https://res.cloudinary.com/tor020/image/upload/v1517718790/FreeWebSiteLanding_hokb9b.png", ""
+    ],
+    imgLinkThmb: "https://res.cloudinary.com/tor020/image/upload/c_limit,h_300,w_400/v1517718790/FreeWebSiteLanding_hokb9b.png",
+    imageSet: "FreeWebsiteTemplate",
+    caption: "",
+    altTxt: "",
+    liveSiteHref: "https://tor020.github.io/FreeWebSiteLanding/",
+    
+  }, 
+  {
+    projectTitle: "WordPress Solutions",
+    projectTags:["#WordPress","#Lamp"],
+    backSummary:"I built this website to advertise freelance Wordpress and Web Development Services. The landing page uses the Hestia theme, and the article page was made with a plugin called WPblockade.",
+    frontSummary:"Wordpress Website built locally and migrated to a live server to promote freelance services.",    
+    imgLink: [
+      "https://res.cloudinary.com/tor020/image/upload/v1504058445/PortfolioVer1%20Full/wphome.png", "http://www.kcwebdevoh.online/home/front-end-vs-back-end-vs-fullstack/"
+    ],
+    imgLinkThmb: "https://res.cloudinary.com/tor020/image/upload/v1504058444/PortfolioVer1%20Thmb/wphome.thmb.png",
+    imageSet: "WordPressSolutions",
+    caption: "",
+    altTxt: "",
+    liveSiteHref: "http://www.kcwebdevoh.online",
+    
+  },
+    { 
     projectTitle: "KF2Calculator",
     projectTags:["#Javascript ","#Bootstrap3 ","#Web-Application"],
     backSummary:"Calculates player's in-game damage for them for each class with each of their individual weapons.Damage calculations use values and formulas listed on Google document for the game. It also displays enemy's in-game health and resistances on mouseover.",
@@ -56,7 +72,23 @@ export const propData = [
     altTxt: "",
     liveSiteHref: "https://tor020.github.io/Killing-Floor-2-Calculator/",
     
-  }, {
+  },
+   {
+    projectTitle: "Start Page Web-Application",
+    projectTags:["#Javascript",""],
+    backSummary:"I built this for my own personal use as a start page.",
+    frontSummary:"Single Page Web Application",    
+    imgLink: [
+      "https://res.cloudinary.com/tor020/image/upload/v1517719364/myHomepage2_y02rkv.png", "https://res.cloudinary.com/tor020/image/upload/v1517719637/myHomepage1_izv35e.png"
+    ],
+    imgLinkThmb: "https://res.cloudinary.com/tor020/image/upload/c_limit,h_300,w_400/v1517719364/myHomepage2_y02rkv.png",
+    imageSet: "HomePageApp",
+    caption: "",
+    altTxt: "",
+    liveSiteHref: "https://asdfqwe.ga/",
+    
+  },
+ {
     projectTitle: "To-Do-List Web App",
     projectTags:["#Javascript",""],
     backSummary:"The goal of this project was to demonstrate that I was familiar and able to write modular code that interacts with other sections of code in order to achieve its purpose.",
@@ -74,21 +106,7 @@ export const propData = [
     altTxt: "",
     liveSiteHref: "https://tor020.github.io/TodoWebApp/",
     
-  }, {
-    projectTitle: "WordPress Solutions",
-    projectTags:["#WordPress","#Lamp"],
-    backSummary:"I built this website to advertise freelance Wordpress and Web Development Services. The landing page uses the Hestia theme, and the article page was made with a plugin called WPblockade.",
-    frontSummary:"Wordpress Website built locally and migrated to a live server to promote freelance services.",    
-    imgLink: [
-      "https://res.cloudinary.com/tor020/image/upload/v1504058445/PortfolioVer1%20Full/wphome.png", "http://www.kcwebdevoh.online/home/front-end-vs-back-end-vs-fullstack/"
-    ],
-    imgLinkThmb: "https://res.cloudinary.com/tor020/image/upload/v1504058444/PortfolioVer1%20Thmb/wphome.thmb.png",
-    imageSet: "WordPressSolutions",
-    caption: "",
-    altTxt: "",
-    liveSiteHref: "http://www.kcwebdevoh.online",
-    
-  }, {
+  },  {
     projectTitle: "PrevPortfolio2",
     projectTags:["#Archived",""],
     backSummary:"After my Bootstrap portfolio, I wanted to make one that had no extra code that slowed down the website's load time. While I finished the website, it ended up not looking as good as I wanted it to.",
